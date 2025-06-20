@@ -65,8 +65,9 @@ Below are some visual highlights of the projects I've built during my MERN train
 ### 🛒 Project 3 – Travel Dashboard  
 ---![Screenshot 2025-06-20 182625](https://github.com/user-attachments/assets/a9272eb2-e9e3-4dbf-a751-a2bc32acceb2)
 
-### 🧪 Project 3 – Travel Dashboard  
+### 🧪 Project 4 – EduLearn Dashboard  
 
+![Screenshot 2025-06-20 185950](https://github.com/user-attachments/assets/2161f60a-2ed4-474b-8a87-f361bbdf7148)
 
 
 

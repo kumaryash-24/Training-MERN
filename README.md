@@ -14,10 +14,10 @@
 
 This repository is a reflection of my hands-on learning experience during my MERN Stack training program. Each day, we dive into fundamental frontend concepts such as:
 
-- Writing semantic and accessible HTML
-- Creating responsive layouts using CSS
-- Adding interactivity with vanilla JavaScript
-- Building real-world components and pages
+- Writing semantic and accessible HTML  
+- Creating responsive layouts using CSS  
+- Adding interactivity with vanilla JavaScript  
+- Building real-world components and pages  
 
 > Instead of just learning theory, I build mini-projects daily — and this repo documents my daily growth, learnings, and creative implementations.
 
@@ -29,10 +29,10 @@ This repository is a reflection of my hands-on learning experience during my MER
 
 I'm a firm believer in learning by doing. Here's how I approach my training:
 
-- 🧠 Understand the concept from scratch
-- 🔨 Apply it in a hands-on mini project
-- 📂 Organize it properly in GitHub
-- 🧾 Reflect & improve based on feedback
+- 🧠 Understand the concept from scratch  
+- 🔨 Apply it in a hands-on mini project  
+- 📂 Organize it properly in GitHub  
+- 🧾 Reflect & improve based on feedback  
 
 Each folder in this repo represents one step in my developer journey.
 
@@ -50,12 +50,33 @@ Each folder in this repo represents one step in my developer journey.
 
 ---
 
+## 📸 Project Screenshots
+
+Below are some visual highlights of the projects I've built during my MERN training:
+
+<!-- Upload screenshots to the 'screenshots/' folder and use correct file names -->
+
+### 🧪 Project 1 – Resume 
+![Screenshot 2025-06-20 184102](https://github.com/user-attachments/assets/a292d388-6d85-4e80-915a-94629c6872b4)
+
+### 📊 Project 2 – Portfolio 
+![Screenshot 2025-06-20 184337](https://github.com/user-attachments/assets/ae6414a0-1ea4-48c3-812c-907bb40cdc00)
+
+### 🛒 Project 3 – Travel Dashboard  
+---![Screenshot 2025-06-20 182625](https://github.com/user-attachments/assets/a9272eb2-e9e3-4dbf-a751-a2bc32acceb2)
+
+### 🧪 Project 3 – Travel Dashboard  
+
+
+
+
+
 ## ✨ What Makes This Repo Special?
 
-- 🧩 Every project is built from scratch with full attention to design & usability
-- 📌 Code is organized, readable, and well-commented
-- 🔁 Consistent daily commits & progress tracking
-- 📝 Clear documentation for future reference
+- 🧩 Every project is built from scratch with full attention to design & usability  
+- 📌 Code is organized, readable, and well-commented  
+- 🔁 Consistent daily commits & progress tracking  
+- 📝 Clear documentation for future reference  
 
 ---
 
@@ -71,4 +92,3 @@ This repo isn’t just code — it's my personal development diary and a showcas
 > I appreciate feedback, suggestions, or collaboration ideas. Let's grow together as developers! 🌱
 
 ---
-

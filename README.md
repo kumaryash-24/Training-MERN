@@ -69,6 +69,8 @@ Below are some visual highlights of the projects I've built during my MERN train
 
 ![Screenshot 2025-06-20 185950](https://github.com/user-attachments/assets/2161f60a-2ed4-474b-8a87-f361bbdf7148)
 
+### 📊 Project 5 – Javascript Assignment 
+
 
 
 

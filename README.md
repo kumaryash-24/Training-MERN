@@ -3,7 +3,7 @@
 > "Learning by building" – A personal repository to track my MERN Stack training journey as a trainee developer.
 
 ![MERN Badge](https://img.shields.io/badge/MERN-Training-blueviolet?style=flat-square&logo=react)
-![HTML](https://img.shields.io/badge/HTML-%3C%2F%3E-orange?logo=html5)
+![HTML](https://img.shields.io/badge/HTML-%3C%2F%3E-orange?logo=html5) 
 ![CSS](https://img.shields.io/badge/CSS-%23-blue?logo=css3)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
 ![Git](https://img.shields.io/badge/Git-Enabled-informational?logo=git)
@@ -72,6 +72,10 @@ Below are some visual highlights of the projects I've built during my MERN train
 ### 📃 Project 5 – Javascript Assignment 
 
 ![JS_Assignment](https://github.com/user-attachments/assets/80daa1f3-b0e2-44af-ba55-02a69abbf1de)
+
+### 💻 Project 6 – To do List
+
+![To_do_list](https://github.com/user-attachments/assets/c1352e6e-e8ea-4a3e-83d0-e52c9b5743a7)
 
 
 

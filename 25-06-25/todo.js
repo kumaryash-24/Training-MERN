@@ -24,3 +24,9 @@ function addTask() {
   document.getElementById("taskList").appendChild(li);
   taskInput.value = "";
 }
+
+document.getElementById("taskInput").addEventListener("keydown", function (e) {
+  if (e.key === "Enter") {
+    addTask();
+  }
+});

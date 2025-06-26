@@ -78,6 +78,9 @@ Below are some visual highlights of the projects I've built during my MERN train
 
 ![To_do_list](https://github.com/user-attachments/assets/c1352e6e-e8ea-4a3e-83d0-e52c9b5743a7)
 
+### 🤔 Project 7 – Js Comprehensive Questions
+
+![JS](https://github.com/user-attachments/assets/abd14f9a-d0f5-4957-b3e8-4ebb009bd178)
 
 
 

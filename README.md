@@ -82,6 +82,11 @@ Below are some visual highlights of the projects I've built during my MERN train
 
 ![JS](https://github.com/user-attachments/assets/abd14f9a-d0f5-4957-b3e8-4ebb009bd178)
 
+### 📃 Project 8 – Js Regex Questions
+
+![regex](https://github.com/user-attachments/assets/6322a64c-fd9b-4088-a611-5ac065d4009f)
+
+
 
 
 ## ✨ What Makes This Repo Special?

@@ -7,4 +7,4 @@ console.log(isValidEmail("hello@.com"));
 console.log(isValidEmail("noemail.com"));             
 
 
-  
+     

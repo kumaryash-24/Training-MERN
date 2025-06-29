@@ -4,6 +4,6 @@ function isValidEmail(email) {
 }
 console.log(isValidEmail("yash123@gmail.com")); 
 console.log(isValidEmail("hello@.com"));         
-console.log(isValidEmail("noemail.com"));        
+console.log(isValidEmail("noemail.com"));             
 
 

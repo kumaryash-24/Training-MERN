@@ -6,7 +6,7 @@ function startsWithHello(str) {
 console.log(startsWithHello("Hello world"));   
 console.log(startsWithHello("Hi Hello there")); 
 console.log(startsWithHello("Hello123"));
-
+  
 
 
 

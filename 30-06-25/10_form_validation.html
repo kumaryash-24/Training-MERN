@@ -31,14 +31,14 @@
   <script>
     $(document).ready(function(){
       $("#myForm").submit(function(e){
-        e.preventDefault(); // Stop form from submitting
+        e.preventDefault(); 
 
         let isValid = true;
 
-        // Clear previous errors
+        
         $("input, textarea").removeClass("error");
 
-        // Check each field
+        
         $("input, textarea").each(function(){
           if ($(this).val().trim() === "") {
             $(this).addClass("error");

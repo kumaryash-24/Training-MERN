@@ -86,6 +86,11 @@ Below are some visual highlights of the projects I've built during my MERN train
 
 ![regex](https://github.com/user-attachments/assets/6322a64c-fd9b-4088-a611-5ac065d4009f)
 
+### 📃 Project 9 – jQuery Mini project
+
+![jQuery_questions](https://github.com/user-attachments/assets/6a156a98-5235-4c0b-bf87-93e53a2a0489)
+
+
 
 
 

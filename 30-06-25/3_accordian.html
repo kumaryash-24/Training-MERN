@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Accordion Panel 🎛️</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 50px auto;
+    }
+    .accordion {
+      background-color: #f1f1f1;
+      cursor: pointer;
+      padding: 10px;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      text-align: left;
+      transition: 0.4s;
+      margin-top: 10px;
+    }
+
+    .panel {
+        display: none;
+      background-color: #fafafa;
+      padding: 10px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Accordion Panel 🎛️</h2>
+
+  <button class="accordion">🍕 What’s for lunch?</button>
+  <div class="panel">
+    <p>Maybe pizza or momos? Either way, I’m hungry! 😋</p>
+  </div>
+
+  <button class="accordion">📚 What's the plan today?</button>
+  <div class="panel">
+    <p>Study a bit, chill a bit... and maybe a nap! 💤</p>
+  </div>
+
+  <button class="accordion">💡 Any ideas?</button>
+  <div class="panel">
+    <p>Yes! Let’s make a game or build something fun 😎</p>
+  </div>
+
+  <script>
+    $(document).ready(function(){
+      $(".accordion").click(function(){
+        $(this).next(".panel").slideToggle();
+        $(".panel").not($(this).next()).slideUp();
+      });
+    });
+  </script>
+
+</body>
+</html>

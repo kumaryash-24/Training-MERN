@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Validation 🔍</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    input, textarea {
+      display: block;
+      margin: 10px 0;
+      padding: 8px;
+      width: 250px;
+    }
+
+    .error {
+      border: 2px solid red;
+      background-color: #ffe5e5;
+    }
+  </style>
+</head>
+<body style="font-family: Arial; padding: 30px;">
+
+  <h2>Basic Form Validation 😇</h2>
+
+  <form id="myForm">
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="email" id="email" placeholder="Your Email">
+    <textarea id="message" placeholder="Your Message"></textarea>
+    <button type="submit">Submit 🚀</button>
+  </form>
+
+  <script>
+    $(document).ready(function(){
+      $("#myForm").submit(function(e){
+        e.preventDefault(); // Stop form from submitting
+
+        let isValid = true;
+
+        // Clear previous errors
+        $("input, textarea").removeClass("error");
+
+        // Check each field
+        $("input, textarea").each(function(){
+          if ($(this).val().trim() === "") {
+            $(this).addClass("error");
+            isValid = false;
+          }
+        });
+
+        if (isValid) {
+          alert("Form submitted successfully! ✅");
+        } else {
+          alert("Please fill out all fields! ❌");
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

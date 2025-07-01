@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scroll to Top ⬆️</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    #scrollTopBtn {
+      display: none;
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      padding: 10px 15px;
+      font-size: 18px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+
+    #scrollTopBtn:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Scroll Down to See the Button ⬇️</h2>
+  <p>This is a long scrollable page. Keep going! 🚀</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit sem in risus.</p>
+  <p>Keep scrolling... 👇</p>
+  <p>Still scrolling? You're doing great! 💪</p>
+  <p>Don’t stop now... Almost there! 😅</p>
+  <p>Look at all this lovely text! 📄</p>
+  <p>Wow, still going! 🐢</p>
+  <p>You're a scrolling legend! 🏆</p>
+  <p>Okay, really... scroll more 😆</p>
+  <p>This is paragraph 10.</p>
+  <p>This is paragraph 11.</p>
+  <p>This is paragraph 12.</p>
+  <p>This is paragraph 13.</p>
+  <p>This is paragraph 14.</p>
+  <p>This is paragraph 15.</p>
+  <p>This is paragraph 16.</p>
+  <p>This is paragraph 17.</p>
+  <p>This is paragraph 18.</p>
+  <p>This is paragraph 19.</p>
+  <p>This is paragraph 20.</p>
+  <p>Almost at the end... 👀</p>
+  <p>This is paragraph 21.</p>
+  <p>This is paragraph 22.</p>
+  <p>This is paragraph 23.</p>
+  <p>This is paragraph 24.</p>
+  <p>This is paragraph 25.</p>
+  <p>This is paragraph 26.</p>
+  <p>This is paragraph 27.</p>
+  <p>This is paragraph 28.</p>
+  <p>This is paragraph 29.</p>
+  <p>This is paragraph 30. You made it! 🎉</p>
+
+  <button id="scrollTopBtn">⬆️ Zoom Me Up!</button>
+
+  <script>
+    $(document).ready(function(){
+      $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+          $("#scrollTopBtn").fadeIn();
+        } else {
+          $("#scrollTopBtn").fadeOut();
+        }
+      });
+      $("#scrollTopBtn").click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+      });
+    });
+  </script>
+
+</body>
+</html>

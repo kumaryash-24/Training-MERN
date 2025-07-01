@@ -95,7 +95,8 @@ Below are some visual highlights of the projects I've built during my MERN train
 ![leopard](https://github.com/user-attachments/assets/f1403e01-f830-4877-9280-24f9d5512bf9)
 
 ### 📟 Project 11 – TechConf Landing Page
-### Live Demo:--- https://launchwithyash.netlify.app/
+### Live Demo 1:--- https://launchwithyash.netlify.app/
+### Live Demo 2:--- https://techfutureyash.netlify.app/
 
 ![Output](https://github.com/user-attachments/assets/7a56459c-4210-4cdc-90b4-ce7e3cbba440)
 

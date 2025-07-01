@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leopard Running Animation 🐆</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      text-align: center;
+    }
+
+    #leopard {
+      width: 200px;
+      height: 130px;
+      position: absolute;
+      top: 200px;
+      left: 0;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Running Leopard Animation 🐆💨</h2>
+
+  <img id="leopard" src="1.png">
+
+  <audio id="roarSound" src="roar.mp3" loop></audio>
+
+  <br>
+  <button onclick="document.getElementById('roarSound').play()">Play Sound 🎵</button>
+
+  <script>
+    $(document).ready(function(){
+      let frame = 1;
+      let position = 0;
+
+      setInterval(function(){
+        frame++;
+        if(frame > 8) frame = 1;
+        $("#leopard").attr("src", frame + ".png");
+
+        position += 5;
+        if(position > $(window).width()) {
+          position = -200;
+        }
+
+        $("#leopard").css("left", position + "px");
+      }, 100);
+    });
+  </script>
+
+</body>
+</html>

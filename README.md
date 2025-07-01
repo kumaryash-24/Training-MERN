@@ -90,6 +90,10 @@ Below are some visual highlights of the projects I've built during my MERN train
 
 ![jQuery_questions](https://github.com/user-attachments/assets/6a156a98-5235-4c0b-bf87-93e53a2a0489)
 
+### 📃 Project 10 – Leopard Run Animation using jQuery
+
+![leopard](https://github.com/user-attachments/assets/f1403e01-f830-4877-9280-24f9d5512bf9)
+
 
 
 

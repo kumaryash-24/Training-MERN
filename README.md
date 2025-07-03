@@ -1,5 +1,3 @@
-
-=======
 # 👨‍💻 MERN Stack Training Portfolio @Engminds
 
 > "Learning by building" – A personal repository to track my MERN Stack training journey as a trainee developer.

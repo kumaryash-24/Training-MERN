@@ -23,33 +23,6 @@ This repository is a reflection of my hands-on learning experience during my MER
 
 ---
 
-## 🚀 My Learning Philosophy
-
-> 💡 **"Build. Break. Learn. Repeat."**
-
-I'm a firm believer in learning by doing. Here's how I approach my training:
-
-- 🧠 Understand the concept from scratch  
-- 🔨 Apply it in a hands-on mini project  
-- 📂 Organize it properly in GitHub  
-- 🧾 Reflect & improve based on feedback  
-
-Each folder in this repo represents one step in my developer journey.
-
----
-
-## 📆 Daily Learning Highlights
-
-🗓️ **Week 1**:  
-- Basics of HTML, structure & elements  
-- Styling with CSS – Box model, Flexbox  
-- JavaScript fundamentals – variables, loops, functions  
-- DOM manipulation and event handling  
-
-🔄 **More coming soon...** (updated regularly)
-
----
-
 ## 📸 Project Screenshots
 
 Below are some visual highlights of the projects I've built during my MERN training:
@@ -101,7 +74,9 @@ Below are some visual highlights of the projects I've built during my MERN train
 
 ![Output](https://github.com/user-attachments/assets/7a56459c-4210-4cdc-90b4-ce7e3cbba440)
 
+### 🧪 Project 12 – Form_React_Hook
 
+![Form_ss](https://github.com/user-attachments/assets/d7451a6a-2dc4-4492-8cd6-9ba2bc64a166)
 
 
 

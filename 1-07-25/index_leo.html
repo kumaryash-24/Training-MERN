@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leopard Run 🐆</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      background: #f0f0f0;
+      font-family: sans-serif;
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    #leopard {
+      width: 200px;
+      height: 130px;
+      position: absolute;
+      top: 200px;
+      left: 0;
+    }
+
+    .controls {
+      margin-top: 30px;
+    }
+
+    button, select {
+      padding: 8px 16px;
+      margin: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Running Leopard 🐆 With Controls</h2>
+
+  <img id="leopard" src="images/1.png">
+
+
+  <div class="controls">
+    <button id="toggleBtn">Start ▶️</button>
+    <select id="speedControl">
+      <option value="150">🐢 Slow</option>
+      <option value="100" selected>🐆 Normal</option>
+      <option value="50">⚡ Fast</option>
+    </select>
+  </div>
+
+  <audio id="leopardSound" src="roar.mp3" loop></audio>
+
+  <script>
+    $(document).ready(function(){
+      let frame = 1;
+      let position = 0;
+      let isRunning = false;
+      let interval;
+      let speed = 100;
+
+      let sound = $("#leopardSound")[0];
+
+      function startAnimation() {
+        interval = setInterval(function(){
+          frame = (frame % 8) + 1;
+          $("#leopard").attr("src", "images/" + frame + ".png");
+
+          position += 5;
+          if(position > $(window).width()) {
+            position = -200;
+          }
+
+          $("#leopard").css("left", position + "px");
+        }, speed);
+        sound.play();
+      }
+
+      function stopAnimation() {
+        clearInterval(interval);
+        sound.pause();
+        sound.currentTime = 0;
+      }
+
+      $("#toggleBtn").click(function(){
+        if (isRunning) {
+          stopAnimation();
+          $("#toggleBtn").text("Start ▶️");
+        } else {
+          startAnimation();
+          $("#toggleBtn").text("Stop ⏸️");
+        }
+        isRunning = !isRunning;
+      });
+
+      $("#speedControl").change(function(){
+        speed = parseInt($(this).val());
+        if (isRunning) {
+          stopAnimation();
+          startAnimation();
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Funny Theme Switcher 😂</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body id="mainBody" style="background-color: #fff; color: #000; text-align: center; font-family: Arial; padding: 50px;">
+
+  <button id="toggleTheme" style="padding: 10px 20px; font-size: 16px;">
+    🌞 I'm too bright, take me to the dark side 😎
+  </button>
+
+  <h1>Welcome, Kumar Yash! 💻🧠</h1>
+  <p id="funnyText">Don't worry, I won't turn off the lights completely. Maybe. 😅</p>
+
+  <script>
+    $(document).ready(function(){
+      let darkMode = false;
+
+      $("#toggleTheme").click(function(){
+        if (!darkMode) {
+          $("#mainBody").css({
+            "background-color": "#121212",
+            "color": "#f1f1f1"
+          });
+          $("#toggleTheme").text("🌚 It's dark now... Who turned off the light?! ☀️");
+          $("#funnyText").text("Switch on the lights! 😏");
+          darkMode = true;
+        } else {
+          $("#mainBody").css({
+            "background-color": "#fff",
+            "color": "#000"
+          });
+          $("#toggleTheme").text("🌞 I'm too bright, take me to the dark side 😎");
+          $("#funnyText").text("Don't worry, I won't turn off the lights completely. Maybe. 😅");
+          darkMode = false;
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

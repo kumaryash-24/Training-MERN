@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Image Slider 😂</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    .slider img {
+      width: 300px;
+      height: 200px;
+      display: none;
+    }
+
+    .buttons {
+      margin-top: 10px;
+    }
+
+    button {
+      padding: 8px 12px;
+      margin: 5px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body style="text-align:center; font-family:sans-serif;">
+
+  <h2>Funny Image Slider 😜</h2>
+
+  <div class="slider">
+    <img src="https://images.unsplash.com/photo-1601758123927-196c9f88c896?auto=format&fit=crop&w=800&q=80" class="slide" style="display: block;">
+    <img src="https://images.unsplash.com/photo-1614755162545-6af80d7fd3b6?auto=format&fit=crop&w=800&q=80" class="slide">
+    <img src="https://images.unsplash.com/photo-1589571894960-20bbe2828b71?auto=format&fit=crop&w=800&q=80" class="slide">
+  </div>
+
+  <div class="buttons">
+    <button id="prev">⬅️ Prev</button>
+    <button id="next">Next ➡️</button>
+  </div>
+
+  <script>
+    $(document).ready(function(){
+      let index = 0;
+      let images = $(".slide");
+
+      $("#next").click(function(){
+        images.eq(index).hide();       // Hide current
+        index++;                       // Move to next
+        if(index >= images.length) index = 0; // Loop to start
+        images.eq(index).show();       // Show next
+      });
+
+      $("#prev").click(function(){
+        images.eq(index).hide();       // Hide current
+        index--;                       // Move to previous
+        if(index < 0) index = images.length - 1; // Loop to end
+        images.eq(index).show();       // Show previous
+      });
+    });
+  </script>
+
+</body>
+</html>

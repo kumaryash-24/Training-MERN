@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Live Character Counter ✍️</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    textarea {
+      width: 300px;
+      height: 100px;
+      padding: 10px;
+      font-size: 16px;
+    }
+    #charCount {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Type something funny! 😂✍️</h2>
+  <textarea id="myText" placeholder="Start typing here... 🤓"></textarea>
+  <div id="charCount">Characters: 0 🧮</div>
+
+  <script>
+    $(document).ready(function(){
+      $("#myText").on("input", function(){
+        let count = $(this).val().length;
+        $("#charCount").text("Characters: " + count + " 🧮");
+      });
+    });
+  </script>
+
+</body>
+</html>

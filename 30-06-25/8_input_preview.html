@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Real-Time Input Preview 🪞</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body style="font-family: Arial; text-align: center; padding: 50px;">
+
+  <h2>Type Something! ✍️</h2>
+
+  <input type="text" id="userInput" placeholder="Type here..." style="padding: 10px; font-size: 16px;"><br><br>
+
+  <h3>Live Preview 👇</h3>
+  <p id="previewBox" style="font-size: 20px; color: teal;">(Your text will appear here)</p>
+
+  <script>
+    $(document).ready(function(){
+      $("#userInput").on("input", function(){
+        let text = $(this).val();
+        $("#previewBox").text(text || "(Your text will appear here)");
+      });
+    });
+  </script>
+
+</body>
+</html>

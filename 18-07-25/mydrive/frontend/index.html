@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Drive with Node</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>📁 My Drive</h2>
+
+    <div>
+      <h3>Create Folder</h3>
+      <input type="text" id="folderName" placeholder="Folder Name" />
+      <button onclick="createFolder()">Create Folder</button>
+    </div>
+
+    <div>
+      <h3>Create File</h3>
+      <input type="text" id="fileName" placeholder="File Name" />
+      <input type="text" id="fileContent" placeholder="File Content" />
+      <button onclick="createFile()">Create File</button>
+    </div>
+
+    <div id="status" style="margin: 10px 0; font-weight: bold; color: green;"></div>
+    <div>
+      <h3>📂 Your Drive</h3>
+      <ul id="driveList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

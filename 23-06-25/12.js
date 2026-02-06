@@ -6,6 +6,7 @@ if (num % 3 === 0 && num % 5 ===0) {
 else{
     console.log("Not Divsible ");
 
-}    
+}       
 
    
+
